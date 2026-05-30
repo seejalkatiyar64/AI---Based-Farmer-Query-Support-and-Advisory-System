@@ -33,13 +33,15 @@ KrishiMitra/
 └── README.md
 ```
 🛠️ Technology Stack
-Frontend,
+
+Frontend-
 React.js,
 Vite,
 HTML5,
 CSS3,
-JavaScript,
-Backend,
+JavaScript
+
+Backend-
 Node.js,
 Express.js,
 AI Integration,
@@ -153,12 +155,12 @@ curl -X POST http://localhost:5000/upload \
 ```
 
 ▶️ Running the Project
-Start Backend
+Start Backend-
 
 cd backend,
 node server.js
 
-Start Frontend
+Start Frontend-
 cd frontend,
 npm run dev
 
