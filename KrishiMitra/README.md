@@ -1,19 +1,15 @@
-# 🌾 KrishiMitra AI – Predictive Farming Intelligence System
-### Smart India Hackathon (SIH) Final Round Project
-
----
-
+🌾 AI-Based Farmer Query Support and Advisory System (KrishiMitra)
 ## 🎯 Project Overview
-
-KrishiMitra AI is a full-stack AI-powered farming platform designed for Indian farmers. It provides:
-- 🌡️ **Predictive weather alerts** before problems occur
-- 🤖 **Multilingual AI chatbot** (Hindi + English) powered by Claude/OpenAI
-- 📸 **Crop disease detection** via image upload
-- 💰 **Profit calculator** with crop comparison table
-- 🎤 **Voice input** (Web Speech API – no internet needed for voice)
-- 📞 **IVR concept** for feature-phone farmers
-
----
+AI-Based Farmer Query Support and Advisory System (KrishiMitra) is an intelligent web-based platform designed to assist farmers by providing instant answers to agriculture-related queries. The system uses Artificial Intelligence to offer guidance on crop management, pest control, fertilizers, irrigation practices, weather-related concerns, and modern farming techniques.
+The goal of this project is to bridge the information gap between farmers and agricultural experts by providing quick, reliable, and accessible advisory support.
+✨ Features
+🤖 AI-powered chatbot for farmer queries
+🌱 Crop management recommendations
+🐛 Pest and disease identification guidance
+💧 Irrigation and fertilizer suggestions
+🌦️ Weather-related farming advice
+📱 User-friendly interface
+⚡ Real-time responses using AI models
 
 ## 📁 Folder Structure
 
@@ -36,36 +32,18 @@ KrishiMitra/
 │
 └── README.md
 ```
-
----
-
-## 🚀 Setup & Run Instructions
-
-### Prerequisites
-- Node.js v18+ 
-- npm v9+
-
-### Step 1: Start Backend
-```bash
-cd backend
-npm install
-node server.js
-# Server runs at http://localhost:5000
-```
-
-### Step 2: Start Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-# App runs at http://localhost:3000
-```
-
-### Step 3: Open in Browser
-Visit `http://localhost:3000`
-
----
-
+🛠️ Technology Stack
+Frontend
+React.js
+Vite
+HTML5
+CSS3
+JavaScript
+Backend
+Node.js
+Express.js
+AI Integration
+OpenRouter API
 ## 🔑 API Keys (Optional – App works without them using mocks)
 
 For real AI responses, add to `frontend/.env`:
@@ -174,36 +152,16 @@ curl -X POST http://localhost:5000/upload \
   -F "image=@/path/to/leaf.jpg"
 ```
 
----
+▶️ Running the Project
+Start Backend
+cd backend
+node server.js
+Start Frontend
+cd frontend
+npm run dev
 
-## 🏆 SIH Winning Features
+Open the application in your browser using the URL displayed by Vite
 
-1. **Farmer-First UX** – Large buttons, Hindi labels, voice input
-2. **Predictive (not reactive)** – Warns before problems occur
-3. **Offline-aware design** – Works in low-connectivity rural areas
-4. **IVR integration** – Reaches feature-phone farmers (no smartphone needed)
-5. **Personalized AI** – Tailored to each farmer's crop, location, history
-6. **Multi-modal input** – Text, voice, and image
-7. **Government scheme integration** – PM Kisan, KCC, crop insurance
-8. **Bilingual** – Hindi + English support throughout
+👩‍💻 Developed By
 
----
-
-## 🛠️ Production Upgrades
-
-| Feature | Current | Production |
-|---------|---------|-----------|
-| AI Chat | Claude API (browser) | Backend proxy with rate limiting |
-| Disease Detection | Mock classifier | Plant.id API / TF Serving model |
-| Weather | Mock data | OpenWeatherMap / IMD API |
-| Database | JSON file | MongoDB Atlas |
-| Auth | None | OTP-based (phone number) |
-| IVR | Simulation | Twilio / Exotel |
-| Offline | Concept | Service Worker + PWA |
-
----
-
-## 👥 Team KrishiMitra
-Smart India Hackathon 2024 – Agriculture & Allied Sectors
-
-*Built with ❤️ for India's 140 million farmers*
+Team KrishiMitra
