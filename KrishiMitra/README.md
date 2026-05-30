@@ -33,16 +33,16 @@ KrishiMitra/
 └── README.md
 ```
 🛠️ Technology Stack
-Frontend
-React.js
-Vite
-HTML5
-CSS3
-JavaScript
-Backend
-Node.js
-Express.js
-AI Integration
+Frontend,
+React.js,
+Vite,
+HTML5,
+CSS3,
+JavaScript,
+Backend,
+Node.js,
+Express.js,
+AI Integration,
 OpenRouter API
 ## 🔑 API Keys (Optional – App works without them using mocks)
 
@@ -154,10 +154,12 @@ curl -X POST http://localhost:5000/upload \
 
 ▶️ Running the Project
 Start Backend
-cd backend
+
+cd backend,
 node server.js
+
 Start Frontend
-cd frontend
+cd frontend,
 npm run dev
 
 Open the application in your browser using the URL displayed by Vite
